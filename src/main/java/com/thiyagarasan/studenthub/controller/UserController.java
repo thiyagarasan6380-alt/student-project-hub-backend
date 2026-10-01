@@ -39,4 +39,9 @@ public class UserController {
         return foundUser;
     }
 
+    @GetMapping("/id/{id}")
+    public User getUserById(@PathVariable int id) {
+        return userRepository.findById(id).orElse(null);
+    }
+
 }

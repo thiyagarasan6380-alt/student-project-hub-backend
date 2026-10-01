@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.thiyagarasan.studenthub.entity.Project;
 import com.thiyagarasan.studenthub.repository.ProjectRepository;
-import org.springframework.web.bind.annotation.PutMapping;
 
 @RestController
 @RequestMapping("/projects")
